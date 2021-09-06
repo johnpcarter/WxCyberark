@@ -1,0 +1,7 @@
+endpoint=services-uscentral.skytap.com:20713
+AppID=wm-is
+Safe=wm-passwords
+SafeForUsers=wm-users
+syncInterval=30
+suspendUsers=true
+throwError=true

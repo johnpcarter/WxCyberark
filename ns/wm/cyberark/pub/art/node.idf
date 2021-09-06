@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">wm.cyberark.pub.art</value>
+  <value name="is_public">false</value>
+  <value name="shared"></value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.pkg.art.admin.ARTAdmin</value>
+    <value>com.wm.pkg.art.error.DetailedException</value>
+    <value>com.wm.pkg.art.error.DetailedServiceException</value>
+    <value>com.wm.pkg.art.ns.ARTNSNodeUtil</value>
+    <value>com.wm.pkg.art.ns.ConnectionDataNode</value>
+    <value>com.wm.pkg.art.ns.ConnectionDataNodeFactory</value>
+    <value>com.wm.pkg.art.ns.ConnectionDataNodeManager</value>
+    <value>com.wm.pkg.art.util.StringUtil</value>
+    <value>java.util.ArrayList</value>
+    <value>com.jc.invoke.credentials.Credentials</value>
+  </array>
+</Values>

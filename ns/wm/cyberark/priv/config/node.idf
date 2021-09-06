@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">wm.cyberark.priv.config</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">CnByaXZhdGUgc3RhdGljIFN0cmluZyBfdGFza0lkOwoKcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3Ry
+aW5nIFBST1BTX0ZJTEUgPSAiLi9wYWNrYWdlcy9XeEN5YmVyYXJrL2NvbmZpZy9wcm9wZXJ0aWVz
+LmNuZiI7CnByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBTRVJWSUNFU19GSUxFID0gIi4vcGFj
+a2FnZXMvV3hDeWJlcmFyay9jb25maWcvY29ubmVjdGlvbnMuY25mIjsKcHJpdmF0ZSBzdGF0aWMg
+ZmluYWwgU3RyaW5nIFVTRVJTX0ZJTEUgPSAiLi9wYWNrYWdlcy9XeEN5YmVyYXJrL2NvbmZpZy91
+c2Vycy5jbmYiOwoKcHJpdmF0ZSBzdGF0aWMgU3RyaW5nW10gcmVhZEZpbGVBc1N0cmluZ0xpc3Qo
+U3RyaW5nIGZuYW1lKSB0aHJvd3MgU2VydmljZUV4Y2VwdGlvbiB7CgkJCQoJSW5wdXRTdHJlYW0g
+aXMgPSBuZXcgQnl0ZUFycmF5SW5wdXRTdHJlYW0ocmVhZEZpbGUoZm5hbWUpKTsKCQoJTGlzdDxT
+dHJpbmc+IGxpbmVzID0gbmV3IEFycmF5TGlzdDxTdHJpbmc+KCk7CglTdHJpbmcgbGluZSA9IG51
+bGw7CgkKCXRyeSAoCgkJQnVmZmVyZWRSZWFkZXIgcmRyID0gbmV3IEJ1ZmZlcmVkUmVhZGVyKG5l
+dyBJbnB1dFN0cmVhbVJlYWRlcihpcykpOwoJKQoJewoJCXdoaWxlICgobGluZT1yZHIucmVhZExp
+bmUoKSkgIT0gbnVsbCkgewoJCQlsaW5lcy5hZGQobGluZSk7CgkJfQoJfSBjYXRjaCAoSU9FeGNl
+cHRpb24gZSkgewoJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKGUpOwoJfQoJCQoJcmV0dXJu
+IGxpbmVzLnRvQXJyYXkobmV3IFN0cmluZ1tsaW5lcy5zaXplKCldKTsKfQoKcHJpdmF0ZSBzdGF0
+aWMgYnl0ZVtdIHJlYWRGaWxlKFN0cmluZyBmbmFtZSkgdGhyb3dzIFNlcnZpY2VFeGNlcHRpb24g
+ewoJCQkKCWlmIChmbmFtZSA9PSBudWxsKQoJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJw
+cm92aWRlIGZpbGUgbmFtZSBwbGVhc2UiKTsKCQoJLy8gcHJvY2VzcwoJCglieXRlW10gZGF0YSA9
+IG51bGw7CgkKCXRyeSB7CgkJZGF0YSA9IEZpbGVzLnJlYWRBbGxCeXRlcyhQYXRocy5nZXQoZm5h
+bWUpKTsKCX0gY2F0Y2goTm9TdWNoRmlsZUV4Y2VwdGlvbiBlKSB7CgkJCgkJZGF0YSA9IG5ldyBi
+eXRlWzBdOwoJfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewoJCQoJCXRocm93IG5ldyBTZXJ2aWNl
+RXhjZXB0aW9uKGUpOwoJfQoJCQkKCXJldHVybiBkYXRhOwp9Cgpwcml2YXRlIHN0YXRpYyB2b2lk
+IHdyaXRlRmlsZShTdHJpbmcgZm5hbWUsIGJ5dGVbXSBjb250ZW50KSB0aHJvd3MgU2VydmljZUV4
+Y2VwdGlvbiB7CgkKCWlmIChmbmFtZSA9PSBudWxsKQoJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0
+aW9uKCJwcm92aWRlIGZpbGUgbmFtZSBwbGVhc2UiKTsKCQoJLy8gcHJvY2VzcwoJCQkKCXRyeSB7
+CgkJRmlsZXMud3JpdGUoUGF0aHMuZ2V0KGZuYW1lKSwgY29udGVudCk7Cgl9IGNhdGNoIChOb1N1
+Y2hGaWxlRXhjZXB0aW9uIGUgKSB7CgkJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24oZSk7Cgl9
+IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CgkJCgkJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24o
+ZSk7Cgl9Cgp9</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.jc.cyberark.VaultChecker</value>
+    <value>com.jc.invoke.credentials.CredentialsInjector</value>
+    <value>java.io.BufferedReader</value>
+    <value>java.io.ByteArrayInputStream</value>
+    <value>java.io.IOException</value>
+    <value>java.io.InputStream</value>
+    <value>java.io.InputStreamReader</value>
+    <value>java.nio.file.Files</value>
+    <value>java.nio.file.NoSuchFileException</value>
+    <value>java.nio.file.Paths</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.HashMap</value>
+    <value>java.util.List</value>
+  </array>
+</Values>
