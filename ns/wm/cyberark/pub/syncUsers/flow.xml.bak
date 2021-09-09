@@ -1556,9 +1556,6 @@
 <MAPDELETE FIELD="/adminPassword;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/Safe;1;0">
-</MAPDELETE>
-
 <MAPDELETE FIELD="/SafeForUsers;1;0">
 </MAPDELETE>
 
