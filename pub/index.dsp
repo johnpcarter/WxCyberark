@@ -65,7 +65,7 @@
     
     <p style="font-weight: bold; margin-left: 40px; margin-top: 60px">SSL Authentication</p>
     <p style="font-style: italic; margin-left: 40px; margin-right: 220px">
-      Connections to cyberark are secured via a certificate that you will need to register in cyberark for the application above. Ensure that you have created a keystore with the name "cyberark" for the given certificate and private key. You will also need to ensure that the CA you used to sign your certificate is managed by a truststore called "cyberark". You will need to registere these stores with webMethods via Security -> Keystore.
+      Connections to Cyberark are secured via a certificate that you will need to register in Cyberark for the application above. Create a keystore with the name "cyberark" for the given certificate and private key. You will also need to ensure that the CA you used to sign your certificate is managed by a truststore called "cyberark". You will need to registere these stores with webMethods via Security -> Keystore.
     </p>
     <p style="font-weight: bold; margin-left: 40px;">Extended Settings</p>
     <p style="margin-left: 40px; margin-right: 40px">Set the following extended setting if cyberark does not specify a valid certificate or CA, otherwise the connection will be refused
