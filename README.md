@@ -1,6 +1,6 @@
 ## WxCyberark README
 
-This package allows credentials to be replaced at runtime with values from your cyberark vault. Credentials are persisted locally and connections are pooled. Cyberark is queried of a new connection cannot be created due to an "Access Denied" error, the fetched credentials are updated locally and the existing connection pool is cleared and recreated with the new credentials. All dependent services calls that use this connection are blocked until the credentials have been fetched and updated locally.
+This package allows credentials to be replaced at runtime with values from your cyberark vault. Credentials are persisted locally and connections are pooled. Cyberark is queried if a new adapter connection cannot be created locally due to an "Access Denied" error. In which case any services trying to use a related adapter service are blocked until the fetched credentials from Cyberark are updated locally and the connection pool flushed.
 
 # Setup
 

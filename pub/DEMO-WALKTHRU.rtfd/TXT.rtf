@@ -9,6 +9,9 @@
 \f0\fs24 \cf0 Cyberark walk-thru\
 \'97\'97\'97\'97\'97\'97\'97\'97\
 \
+First restart your server after installing this package!\
+\
+\
 
 \f1\b Check Tenants are up\
 
@@ -80,7 +83,8 @@ After starting up, check that the JDBC connection is good.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \kerning1\expnd0\expndtw0 {{\NeXTGraphic JDBC-connection.png \width22960 \height5980 \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}\cf2 \expnd0\expndtw0\kerning0
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
 \
 \pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 \cf0 \kerning1\expnd0\expndtw0 \
@@ -88,7 +92,8 @@ And that the tables have been created\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 {{\NeXTGraphic db.png \width25340 \height7040 \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}\
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
 \pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 \cf0 \
 Try out the API to check if it works\
@@ -121,8 +126,9 @@ watt.security.ssl.client.ignoreEmptyAuthoritiesList=true\
 
 \f1\b \cf0 Setup WxConfig package\
 \
+\pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 
-\f0\b0 We now need to configure the WxConfig package, go to \
+\f0\b0 \cf0 We now need to configure the WxConfig package, go to \
 \
 http://localhost:5555/WxCyberark/\
 \
@@ -134,8 +140,9 @@ Check that the properties are as above i.e.\
 End-point: 
 \f1\b\fs22 \cb3 \expnd0\expndtw0\kerning0
 services-uscentral.skytap.com:20713\
+\pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 
-\f0\b0 App ID: 
+\f0\b0 \cf0 App ID: 
 \f1\b wm-is\
 
 \f0\b0 Safe for connections: 
@@ -158,8 +165,9 @@ Clear any errors associated with connections in the WxCyberark package, if the s
 \
 Test the helloworld service again to check it still works\
 \
+\pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 
-\fs24 \cb1 \kerning1\expnd0\expndtw0 curl "http://localhost:5555/rad/jc.api:greeting/hello/John" \\\
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 curl "http://localhost:5555/rad/jc.api:greeting/hello/John" \\\
      -H 'Cookie: ATGID=Anonymous'\
 \
 Now connect to your mysql and change the password to \'91mANage12%\'92. (This is already set in Cyberark)\
@@ -173,8 +181,9 @@ mysql > alter user 'scratch' identified by 'mANage12%';\
 \cf0 We now need to re-run our test, however we need to execute several in parallel as we have already established a connection and need webMethods to create new one. So use the script in resources to trigger 3 calls in parallel\
 \
 $ cd ./IntegrationServer/instances/default/packages/WxCyberark/resources\
+\pard\tx960\tx1520\tx2080\tx2640\tx3200\tx3760\tx4320\tx4880\tx5440\tx6000\tx6560\tx7120\pardirnatural\partightenfactor0
 
-\fs22 \cb3 \expnd0\expndtw0\kerning0
+\fs22 \cf0 \cb3 \expnd0\expndtw0\kerning0
 $  test-jdbc-connections.sh\
 \
 Ideally you should get no errors as we should have dynamically fetched the password. The second, third result may take a little while to show, this is normal as we are fetching the new credentials from Cyberark.\
@@ -187,8 +196,9 @@ Ensure that the scheduled service that is setup to sync local users with Cyberar
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Screenshot 2021-09-08 at 12.22.31.png \width28720 \height15140 \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}
-\fs22 \cb3 \expnd0\expndtw0\kerning0
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs22 \cf0 \cb3 \expnd0\expndtw0\kerning0
 \
 \
 Wait the aforementioned delay and you should then try to reconnect with both bob and john. You should find that you cannot login with bob using \'91manage\'92 as the password. Instead you need to use \'91manager\'92. Click on the \'93show\'94 button in the Cyberark accounts view for bob if you want to check this.\
